@@ -5,12 +5,13 @@
 @kelompokBilanganGenap = []
 
 def kelompokan(angka) 
-  # =================================
-  # Area Kode Kode di sini
 
+if (angka % 2 == 0)
+    puts 'Bilangan genap'
+elsif (angka % 1 == 0)
+    puts 'Bilangan ganjil'
+end
 
-
-  # =================================
 end
 
 # Hasilnya harus seperti di bawah. contoh: [13,211,1761]
