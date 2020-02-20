@@ -7,7 +7,7 @@
 def kelompokan(angka) 
   # =================================
   # Area Kode Kode di sini
-  cek angka % 2
+  cek=  angka % 2
   if cek == 0
     @kelompokBilanganGenap << angka
     else
