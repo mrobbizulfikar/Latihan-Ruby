@@ -1,19 +1,13 @@
 def konversiMenit(getMenit)
     jam = getMenit / 60
     menit = getMenit % 60
-    if jam.to_s.size == 1
-        if menit.to_s.size == 1
-            puts "0#{jam}:0#{menit}"
-        else
-            puts "0#{jam}:#{menit}"    
-        end
-    else
-        if menit.to_s.size == 1
-            puts "#{jam}:0#{menit}"
-        else
-            puts "#{jam}:#{menit}"    
-        end
+    if jam < 10 
+        hour = "0#{jam}"   
     end
+    if menit < 10
+        minutes = "0#{menit}"
+    end
+    puts "#{hour}:#{minutes}"
 end
 
 print "Berapa Menit = " 
