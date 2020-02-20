@@ -5,7 +5,17 @@
 def konversiMenit(menit) 
     # =================================
     # Area Kode Kode di sini
+    def KonversiMenit(menit)
+
+      hasil = menit / 60
+      detik = menit % 60
+  if detik < 10
   
+      detik = "0#{detik}"
+      
+  end
+  puts "#{hasil}:#{detik}"
+  end
   
   
     # =================================
