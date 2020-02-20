@@ -7,13 +7,9 @@ def konversiMenit(menit)
     # Area Kode Kode di sini
   
     jam = menit / 60
-    tmp = menit % 60
-    minutes = tmp % 60
+    minutes = menit % 60
 
-    min_str = minutes.to_s
-    min_zero = min_str.size
-
-    if min_zero == 1
+    if minutes < 10
         puts "#{jam}:0#{minutes}"
     else
         puts "#{jam}:#{minutes}"
