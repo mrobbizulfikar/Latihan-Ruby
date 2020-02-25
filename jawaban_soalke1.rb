@@ -18,7 +18,6 @@ def konversiMenit(menit)
     # =================================
 end
 
-asd = 'asdad'
 print "Input Menit : "
 min = gets.chomp.to_i
 konversiMenit(min)
