@@ -7,10 +7,12 @@
 def kelompokan(angka) 
   # =================================
   # Area Kode Kode di sini
-  
-
-
-
+    hasil = angka%2
+    if hasil == 1
+        @kelompokBilanganGanjil << angka
+    else
+        @kelompokBilanganGenap << angka
+    end
 
   # =================================
 end

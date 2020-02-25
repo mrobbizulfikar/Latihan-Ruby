@@ -6,7 +6,9 @@ def konversiMenit(menit)
     # =================================
     # Area Kode Kode di sini
 
-
+    jam = menit/60
+    mod = menit%60
+    puts "#{jam}:#{mod}"
   
     # =================================
   end
