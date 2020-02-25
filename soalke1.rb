@@ -3,12 +3,11 @@
 # 63 = 1:03 (Satu menit tiga detik)
 
 def konversiMenit(menit) 
-    # =================================
-    # Area Kode Kode di sini
-  
-  
-  
-    # =================================
+    #=================================
+    #Area kode tulis disini
+
+
+    #=================================
   end
   
   # Hasilnya harus seperti di bawah. contoh: 0:32
