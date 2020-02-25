@@ -1,0 +1,13 @@
+lemari = ["Buku", "Handphone", "Pensil", "Baju", "Flashdrive"]
+tas = []
+tas << lemari [0]
+tas << lemari [2]
+tas << lemari [4]
+
+lemari.delete_at[0]
+lemari.delete_at[2]
+lemari.delete_at[4]
+puts "===== lemari ====="
+print lemari
+puts "===== tas ====="
+print tas 
