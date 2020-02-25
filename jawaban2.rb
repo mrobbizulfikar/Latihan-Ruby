@@ -8,9 +8,9 @@ def kelompokan(angka)
   cek = angka % 2
 
   if cek == 0 
-    @kelompokBilanganGanjil << angka
-  else
     @kelompokBilanganGenap << angka
+  else
+    @kelompokBilanganGanjil << angka
 end
 
 
